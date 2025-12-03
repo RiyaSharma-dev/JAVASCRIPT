@@ -4,7 +4,7 @@
 
 // Matlab bahar se access nahi ho sakta → safe aur clean code.
 
-
+// IIFE creates own scope
 
 // // function chai(){
 // //     console.log("hello");
