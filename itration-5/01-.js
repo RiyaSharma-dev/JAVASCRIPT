@@ -1,7 +1,7 @@
 // loops
 
 // for loop
-                    //    condition check    
+                    //    condition check     // increment
                         //   ↓
 // for (let index = 0; index < array.length; index++) {
 //     const element = array[index];
@@ -27,7 +27,7 @@ for (let index = 0; index <= 10; index++) {
 }
 
 
-
+// nested loop
 
 for (let index = 0; index < 10; index++) {
     const element = index;
@@ -66,6 +66,8 @@ for (let index = 0; index < myArr.length; index++) {
     
 }
 
+
+
 // break and continue
 
 for (let index = 1; index <= 20; index++) {
@@ -93,3 +95,71 @@ for (let index = 1; index <= 20; index++) {
     
 }
 
+
+// pratice
+
+for (let index = 1; index <= 3; index++) {
+    const element = index;
+    console.log(`outer loop is ${index}`);
+
+    for (let indexOne = 1; indexOne <= 3; indexOne++) {
+        const element = indexOne;
+        console.log(`inner value is ${indexOne} `);
+        
+        
+    }
+    
+    
+}
+
+
+for (let Two = 1; Two <= 10; Two++) {
+    const element = Two;
+    console.log(`outer value is ${Two}`);
+
+    for (let three = 0; three <=10; three++) {
+        const element = three;
+        console.log(`${Two} * ${three} = ${Two*three}`);
+        
+        
+    }
+    
+    
+}
+
+
+for (let fourth = 1; fourth < 20; fourth++) {
+    const element = fourth;
+
+    if(fourth == 13){
+        console.log(`upto 13`);
+        break; // stop the loop when 13 is detected
+    }
+    
+    console.log(fourth); // prints other numbers
+}
+
+
+
+for (let fifth = 1; fifth <=20; fifth++) {
+    const element = fifth;
+
+    if (fifth ==  7) {
+        console.log(`skip 7`);
+        continue;
+    }
+    console.log(fifth);
+    
+}
+
+
+
+for (let num = 1; num <= 20; num++) {
+
+    if (num == 7 || num == 11 || num == 15) {
+        console.log(`skip ${num}`);
+        continue; // skip this iteration
+    }
+
+    console.log(num);
+}
