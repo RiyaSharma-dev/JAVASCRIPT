@@ -39,3 +39,13 @@ do {
     console.log(` 5 *${j} = ${5*j}` );
     j++
 } while (j<=20);
+
+
+let myArr1 = ["one", "two", "three"]
+
+let k = 0
+do {
+    console.log(`value is ${myArr1[k]}`);
+    k++
+    
+} while (k<myArr1.length);

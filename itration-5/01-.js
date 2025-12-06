@@ -21,7 +21,7 @@ for (let index = 0; index <= 10; index++) {
 
 for (let index = 0; index <= 10; index++) {
     const element = index;
-    console.log(` 2 * ${index} = ${2 *index}`);
+    // console.log(` 2 * ${index} = ${2 *index}`);
     
     
 }
@@ -86,11 +86,11 @@ for (let index = 1; index <= 20; index++) {
 for (let index = 1; index <= 20; index++) {
     
     if(index == 5){
-        console.log(`detected 5`);
+        // console.log(`detected 5`);
         // continue
     }
 
-    console.log(` value of i is ${index}`);
+    // console.log(` value of i is ${index}`);
     
     
 }
