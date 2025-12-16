@@ -68,7 +68,8 @@ let userOne = {
      email:"riyasharma.com",
      upi: "user@bl"
 }
-
+// Heap data share hota hai.
+// (Non-primitive → dono variable same object ko point karte)
 let userTwo = userOne
 
 userTwo.email = userOne
@@ -79,4 +80,10 @@ console.log(userOne.email);
 let a = 5;
 let b = a;
 console.log(a);
+
+
+
+
+
+
 

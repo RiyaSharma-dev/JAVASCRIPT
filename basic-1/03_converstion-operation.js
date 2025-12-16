@@ -68,6 +68,8 @@ let string3 = string1 + string2
 //console.log(1+"2");//12
 //console.log("1"+ 2 + 2); //122
 //console.log(1+2 +"2");//32
+//console.log("5" - 2);  //3
+
 
 let x = 5;
 let y = 2;
@@ -97,3 +99,7 @@ console.log(xy);
 // % → Modulus (remainder)
 
 // ** → Exponentiation (power)
+
+
+
+

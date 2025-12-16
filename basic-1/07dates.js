@@ -9,6 +9,15 @@
 // console.log(typeof myDate); // object
 
 
+// Using numbers
+let date1 = new Date(2024, 2, 1); // 1 March 2024 (month 0-indexed)
+console.log(date1.toDateString()); // "Fri Mar 01 2024"
+
+// Using string
+let date2 = new Date("03-01-2024");
+console.log(date2.toLocaleDateString()); // "3/1/2024" (local format)
+
+
 // Month starts From 0 in javascript
 
 // let myCreatedDate = new Date(2023,0,23)
@@ -48,5 +57,8 @@ newDate.toLocaleString('default',
      weekday: "long"
      }
 )
+
+
+
 
 

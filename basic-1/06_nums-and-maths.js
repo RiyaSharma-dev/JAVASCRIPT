@@ -43,19 +43,28 @@ const  hundreds = 1000000
 // const max =20
 
 // // console.log(Math.random()*(max-min+1) +min  )
-// console.log(Math.floor(Math.random()*(max-min+1)+1));
-// console.log(Math.ceil(Math.random()*(max-min+1)+1));
+// console.log(Math.floor(Math.random()*(max-min+1)+ min);
+// console.log(Math.ceil(Math.random()*(max-min+1)+min));
 
 
 
-console.log(Math.random()*10)+10;
+// console.log(Math.random()*10)+10;
 
-const min = 20
-const max  =50
-console.log(Math.ceil(Math.random()*(max-min+1)+1));
-
-
+// const min = 20
+// const max  =50
+// console.log(Math.ceil(Math.random()*(max-min+1)+ min));
 
 
+console.log(Math.random());
+console.log(Math.random() * 50);
+console.log(Math.random() * 10 )+ 10;
+
+const min =  50
+const max =  100
+
+console.log(Math.random()*(max-min+ 1)+min);
 
 
+
+
+ 

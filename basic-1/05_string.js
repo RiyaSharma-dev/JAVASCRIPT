@@ -38,7 +38,7 @@ const gameName = new String ('hitesh, hr, com')
 
 
 
-// const newStringOne = "   hitesh   "
+const newStringOne = "   hitesh   "  
 // console.log(newStringOne );
 // console.log(newStringOne.trim());
 
@@ -70,3 +70,13 @@ console.log(anotherString);
 
 const otherString = sub.slice(7,8)
 console.log(otherString);
+
+console.log(sub.substring(5,2));
+
+
+
+
+
+
+
+

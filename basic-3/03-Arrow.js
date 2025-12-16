@@ -113,4 +113,19 @@ console.log(array([1,2,3,5]));
 
 
 
+const getEven = (arr )=> arr.filter(arr => arr % 2 === 0);
 
+console.log(getEven([1, 2, 3, 4])); // Output: [2, 4]
+
+
+
+const string= (str) => 
+   str.length
+
+console.log(string("riya"));
+
+
+
+    
+
+    

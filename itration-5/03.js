@@ -5,7 +5,7 @@
 // ["","",""]
 //[{},{}, {}]
 
-
+// “Iteration” बस इतना simple hai — ek kaam ko baar-baar chalाना जब तक list khatam ना ho जाए.
 
 // Iterable ka matlab:
 // Woh cheez jiske andar multiple values ordered form me hoti hain,
@@ -62,3 +62,23 @@ const myObj ={
     
     
 // }
+
+const names = ["Riya", "Rohan", "Ayush", "Keshav"];
+for (const iterator of names){
+console.log(iterator);
+
+}
+
+const numbers = [3, 7, 12, 9, 15];
+for (const num of numbers) {
+    console.log(num);
+    
+}
+
+const name = "riya"
+for(const element of name){
+console.log(element);
+
+}
+
+

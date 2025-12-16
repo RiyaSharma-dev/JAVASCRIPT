@@ -34,7 +34,13 @@ JsUser.helloUser();
 // JsUser.email = "rk.Microsoft@gmail.com"
 // console.log(JsUser);
 
+let object = {
+    email: "riya@112",
+    password: "123"
+}
 
+delete object.password
+console.log(object);
 
 
 JsUser.greeting = function(){

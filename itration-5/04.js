@@ -8,7 +8,7 @@ const myObj = {
 }
 
 for (const key in myObj) {
-    // console.log(`${key} shortcut is for ${myObj[key]}`);
+    console.log(`${key} shortcut is for ${myObj[key]}`);
     
     
 }

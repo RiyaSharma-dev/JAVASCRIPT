@@ -22,6 +22,9 @@ const myArr2 = new Array(1,2, 3, 4,)
 
 const newArr = myArr.join() // convert into  string 
 
+const colors = ["red", "blue", "yellow"];
+colors[2] = "green"
+console.log(colors);
 
 
 // console.log(myArr);
@@ -46,3 +49,16 @@ const myn2 = myArr.splice(1,3) // splice() original array को manipulate क�
 console.log("c", myArr); // [0,4,5]
 
 console.log(myn2); // [1,2,3]
+
+
+
+let fruits = ["apple", "banana", "mango"];
+
+let newFruits = fruits.filter(fruit => fruit !== "banana");
+
+console.log(newFruits); // ["apple", "mango"]
+
+
+
+
+

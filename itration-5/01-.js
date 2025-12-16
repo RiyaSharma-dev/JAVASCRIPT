@@ -163,3 +163,41 @@ for (let num = 1; num <= 20; num++) {
 
     console.log(num);
 }
+
+
+for (let index = 1; index <= 20; index++) {
+    const element = index;
+    
+    if(element % 2 == 0){
+console.log( element);
+
+    }
+    
+    
+}
+
+for (let index = 1; index <=10; index++) {
+    const element = index;
+    console.log(`${element} * 4 = ${4*element} `);
+    
+    
+}
+
+let arr1 = ["riya", "rohan", "ayush", "keshav"]
+for (let index = 0; index < arr1.length; index++) {
+    const element = arr1[index];
+    console.log(element);
+    
+}
+
+
+for (let index = 1; index < 10; index++) {
+    if( 5 == index ){
+    console.log("5 is skip");
+    break
+    }
+    
+    console.log(index);
+    
+    
+}
